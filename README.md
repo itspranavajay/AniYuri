@@ -5,7 +5,7 @@
 <hr>
 
 ## Check it live here
-[aniyuri.vercel.app](aniyuri.vercel.app/)
+aniyuri.vercel.app
 
 ## Api Reference
 
