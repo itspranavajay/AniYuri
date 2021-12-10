@@ -3,7 +3,7 @@
     "background_color": "#1a1c20",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/recentlyadded/1",
+    "start_url": "/recentlysub/1",
     "name": "Animex",
     "description": "Premium anime streaming app",
     "short_name": "Animex",
