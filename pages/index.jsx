@@ -8,13 +8,13 @@ export default function Home() {
 	const router = useRouter();
 	const { data } = useSelector((state) => state);
 	useEffect(() => {
-		router.push("/recentlyadded/1");
+		router.push("/recentlysub/1");
 	}, []);
 	return (
 		<Layout>
 			<Container
 				Popular={data}
-				heading={"Recently Added"}
+				heading={"Recently Sub"}
 				Icon={Discover[1].icon}
 			/>
 		</Layout>
