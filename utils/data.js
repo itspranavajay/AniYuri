@@ -25,7 +25,7 @@ export const Discover = [{
     },
     {
         index: 3,
-        name: "New Popular Anime",
+        name: "New Popular",
         link: "/newpopular/1",
         icon: AiFillCalendar,
     },
