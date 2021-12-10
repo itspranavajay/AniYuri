@@ -7,7 +7,7 @@ import { asyncDataAction } from "../../redux/actions/asyncDataAction";
 import { Discover } from "../../utils/data";
 
 import { URL } from "../../utils/URLS";
-const Recently = () => {
+const RecentlySub = () => {
 	const { data } = useSelector((state) => state);
 	const router = useRouter();
 	const { pages } = router.query;
@@ -15,8 +15,8 @@ const Recently = () => {
 
 	useEffect(() => {
 		if (pages) {
-			var RecentlyAddedURL = URL.RECENT + pages;
-			dispatch(asyncDataAction(RecentlyAddedURL));
+			var RecentlySubURL = URL.RECENTSUB + pages;
+			dispatch(asyncDataAction(RecentlySubURL));
 		}
 	}, [pages]);
 
@@ -24,7 +24,7 @@ const Recently = () => {
 		<Layout>
 			<Container
 				Data={data.results}
-				heading={"Recently Added"}
+				heading={"Recently Sub"}
 				page={[pages]}
 				Icon={Discover[0].icon}
 			/>
@@ -32,4 +32,4 @@ const Recently = () => {
 	);
 };
 
-export default Recently;
+export default RecentlySub;
