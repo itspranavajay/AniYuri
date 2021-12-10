@@ -12,7 +12,6 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import countapi from "countapi-js";
 
-const url = "https://t.me/aniyurisupport";
 
 const Msg = ({ resumeId }) => {
 	return (
@@ -28,7 +27,6 @@ const Msg = ({ resumeId }) => {
 	);
 };
 
-
 const App = ({ Component, pageProps }) => {
 	const [visit, setVisit] = useState(0);
 	const { theme, resumeId } = useSelector((state) => state);
@@ -36,8 +34,8 @@ const App = ({ Component, pageProps }) => {
 	useEffect(() => {
 		console.log(
 			"%c AniYuri! ",
-			"background: #222; color:#4198db ;font-size:50px"
-                );
+			"background: #222; color:#41db91 ;font-size:50px"
+		);
 		localStorage.removeItem("persist:root");
 		if (resumeId) {
 			toast.info(<Msg resumeId={resumeId.data} />);
@@ -71,10 +69,12 @@ const App = ({ Component, pageProps }) => {
 				<meta name="theme-color" content="#1a1c20" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
-				<meta name="description" content="Premium anime streaming experience" />
-                                <meta name="keywords" content="Watching,Popular,Streaming,Free,Fast,1080p"
-                                />
-                        </Head>
+				<meta name="description" content="Anime streaming Website  " />
+				<meta
+					name="keywords"
+					content="Anime,Watching,Popular,Streaming,Free,Fast,1080p"
+				/>
+			</Head>
 			<Sidebar visit={visit} />
 			<div className="flex justify-between">
 				<Navbar visit={visit} /> <Component {...pageProps} />
