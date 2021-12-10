@@ -24,6 +24,12 @@ export const Discover = [{
         icon: AiFillStar,
     },
     {
+        index: 2,
+        name: "New Popular Anime",
+        link: "/newseason/1",
+        icon: AiFillStar,
+    },
+    {
         index: 3,
         name: "New Season",
         link: "/newseason/1",
@@ -31,7 +37,7 @@ export const Discover = [{
     },
     {
         index: 4,
-        name: "Movie",
+        name: "Anime Movie",
         link: "/movie/1",
         icon: AiFillStar,
     },
