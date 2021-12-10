@@ -3,7 +3,7 @@ export const URL = {
     RECENTSUB: "https://aniyuriapi.herokuapp.com/api/" + "recentlysub/",
     RECENTDUB: "https://aniyuriapi.herokuapp.com/api/" + "recentlydub/",
     DETAILS: "https://aniyuriapi.vercel.app/api/" + "details/",
-    EPLINK: "https://aniyuriapi.herokuapp.com/api/" + "watching/",
+    EPLINK: "https://aniyuriapi.vercel.app/api/" + "watching/",
     GENRES: "https://aniyuriapi.herokuapp.com/api/" + "genre/",
     SEARCH: "https://aniyuriapi.herokuapp.com/api/" + "search/",
     NEWSEASON: "https://aniyuriapi.herokuapp.com/api/" + "newseason/",
