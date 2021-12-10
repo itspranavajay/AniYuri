@@ -5,11 +5,11 @@
 <hr>
 
 ## Check it live here
-aniyuri.vercel.app
+https://aniyuri.herokuapp.com/
 
 ## Api Reference
 
-- [API REPO](https://github.com/moezilla/aniyuri-api)
+- [API REPO](https://aniyuriapi.herokuapp.com/)
   This api is being used in this project.
 
 
