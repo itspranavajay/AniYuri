@@ -7,5 +7,6 @@ export const URL = {
     GENRES: "https://aniyuriapi.herokuapp.com/api/" + "genre/",
     SEARCH: "https://aniyuriapi.herokuapp.com/api/" + "search/",
     NEWSEASON: "https://aniyuriapi.herokuapp.com/api/" + "newseason/",
+    NEWPOPULAR: "https://aniyuriapi.herokuapp.com/api/" + "newpopular/",
     MOVIE: "https://aniyuriapi.herokuapp.com/api/" + "movie/",
 };
