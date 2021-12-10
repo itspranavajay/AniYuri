@@ -71,7 +71,7 @@ const App = ({ Component, pageProps }) => {
 				<meta name="theme-color" content="#1a1c20" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="theme-color" content="#000000" />
-				<meta name="description" content="Premium anime streaming experience" /
+				<meta name="description" content="Premium anime streaming experience" />
                                 <meta name="keywords" content="Watching,Popular,Streaming,Free,Fast,1080p"
                                 />
                         </Head>
