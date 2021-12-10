@@ -7,24 +7,36 @@ import {
 
 export const Discover = [{
         index: 1,
-        name: "Recently Added",
-        link: "/recentlyadded/1",
+        name: "Recently Sub",
+        link: "/recentlysub/1",
         icon: AiFillCalendar,
     },
     {
         index: 0,
+        name: "Recently Dub",
+        link: "/recentlydub/1",
+        icon: AiFillCalendar,
+    },
+    {
+        index: 1,
         name: "Popular",
         link: "/popular/1",
         icon: AiFillStar,
     },
     {
-        index: 2,
+        index: 3,
         name: "New Season",
         link: "/newseason/1",
         icon: AiFillStar,
     },
     {
-        index: 3,
+        index: 4,
+        name: "Movie",
+        link: "/movie/1",
+        icon: AiFillStar,
+    },
+    {
+        index: 5,
         name: "My List",
         link: "/myList",
         icon: AiFillHeart,
